@@ -15,13 +15,13 @@ import java.util.Map;
 @Component
 public class DemoSimpleTask {
     private static int i = 0;
-    @Scheduled(initialDelay = 1000,fixedDelay = 3000)
+   // @Scheduled(initialDelay = 1000,fixedDelay = 3000)
     public void print() {
         System.out.println("===========start!=========");
         System.out.println("I:"+i);i++;
         System.out.println("=========== end !=========");
     }
-    @Scheduled(initialDelay = 1000,fixedDelay = 3000)
+   // @Scheduled(initialDelay = 1000,fixedDelay = 3000)
     public void print1() {
         System.out.println("===========start!=========");
         System.out.println("print<<1>>:"+i);i++;
